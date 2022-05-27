@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { Outlet, NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 import AppBar from "@mui/material/AppBar";
@@ -33,17 +33,17 @@ function ResponsiveDrawer(props) {
     <div>
       <Toolbar />
       <Divider />
-      <List>
+      <List sx={{padding: '10px'}}>
         {navLinks.map(({ title, path }) => (
           <ListItem
-            sx={{ color: "black" }}
+            sx={{ color: "black", height: '2rem'}}
             key={title}
             component={NavLink}
             to={path}
             style={({ isActive }) => ({
               color: isActive ? "#fff" : "",
               background: isActive ? "black" : "",
-              borderRadius: isActive ? "20px" : "",
+              borderRadius: isActive ? "5px" : "",
             })}
           >
             <ListItemText primary={title} />
