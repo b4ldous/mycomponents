@@ -3,6 +3,7 @@ import First from "./pages/First";
 import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
 import Second from "./pages/Second";
+import Third from "./pages/Third";
 import ResponsiveDrawer from "./ResponsiveDrawer";
 
 
@@ -15,6 +16,7 @@ function App() {
         <Route index element={<Home/>} />
         <Route path="first" element={<First/>} />
         <Route path="second" element={<Second/>} />
+        <Route path="third" element={<Third/>} />
         <Route path="*" element={<NoPage/>} />
               
       </Route>

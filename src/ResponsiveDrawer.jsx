@@ -17,6 +17,7 @@ import Typography from "@mui/material/Typography";
 const navLinks = [
   { title: "First", path: "/first" },
   { title: "Second", path: "/second" },
+  { title: "Third", path: "/third" },
 ];
 
 const drawerWidth = 240;
@@ -33,10 +34,10 @@ function ResponsiveDrawer(props) {
     <div>
       <Toolbar />
       <Divider />
-      <List sx={{padding: '10px'}}>
+      <List sx={{ padding: "10px" }}>
         {navLinks.map(({ title, path }) => (
           <ListItem
-            sx={{ color: "black", height: '2rem'}}
+            sx={{ color: "black", height: "2rem" }}
             key={title}
             component={NavLink}
             to={path}
@@ -60,7 +61,7 @@ function ResponsiveDrawer(props) {
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
       <AppBar
-      elevation={0}
+        elevation={0}
         position="fixed"
         color="inherit"
         sx={{
@@ -82,7 +83,7 @@ function ResponsiveDrawer(props) {
             Responsive drawer
           </Typography>
         </Toolbar>
-        <Divider/>
+        <Divider />
       </AppBar>
       <Box
         component="nav"
