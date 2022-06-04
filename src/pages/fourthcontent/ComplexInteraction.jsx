@@ -50,7 +50,7 @@ const ComplexInteraction = () => {
           background: "#edf1f5",
         }}
       >
-        <Card sx={{ minWidth: 275, maxWidth: 345, margin: "auto" }}>
+        <Card sx={{  maxWidth: 275, margin: "auto" }}>
           <CardHeader
             avatar={
               <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">

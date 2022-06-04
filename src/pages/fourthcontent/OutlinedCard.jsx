@@ -57,14 +57,14 @@ const OutlinedCard = () => {
           background: "#edf1f5",
         }}
       >
-        <Box sx={{ minWidth: 275 }}>
+        
           <Card
-            sx={{ minWidth: 275, margin: "auto" }}
+            sx={{ maxWidth: 275, margin: "auto" }}
             variant="outlined"
           >
             {card}
           </Card>
-        </Box>
+      
       </Box>
     </>
   );
