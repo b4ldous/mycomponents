@@ -7,6 +7,9 @@ import {
 } from "@mui/material/styles";
 import Container from "@mui/material/Container";
 import BasicCard from "./fourthcontent/BasicCard";
+import OutlinedCard from "./fourthcontent/OutlinedCard";
+import ComplexInteraction from "./fourthcontent/ComplexInteraction";
+import MediaCard from "./fourthcontent/MediaCard";
 
 let theme = createTheme();
 theme = responsiveFontSizes(theme);
@@ -21,7 +24,18 @@ function Fourth() {
           </Typography>
           <br></br>
           <br></br>
-          <BasicCard/>
+          <BasicCard />
+          <br></br>
+          <br></br>
+          <OutlinedCard />
+          <br></br>
+          <br></br>
+          <ComplexInteraction />
+          <br></br>
+          <br></br>
+          <MediaCard />
+          <br></br>
+          <br></br>
         </Container>
       </ThemeProvider>
     </>
