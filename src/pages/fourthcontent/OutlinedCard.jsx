@@ -43,7 +43,7 @@ const OutlinedCard = () => {
   return (
     <>
       <Typography sx={{ fontWeight: 1000 }} variant="h3">
-        Oulined Card
+        Outlined Card
       </Typography>
       <br></br>
       <br></br>

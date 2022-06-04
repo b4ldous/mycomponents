@@ -5,8 +5,10 @@ import {
   createTheme,
   responsiveFontSizes,
   ThemeProvider,
-} from '@mui/material/styles';
+} from "@mui/material/styles";
 import BasicAppBar from "./firstcontent/BasicAppBar";
+import Box from "@mui/material/Box";
+import CssBaseline from "@mui/material/CssBaseline";
 
 let theme = createTheme();
 theme = responsiveFontSizes(theme);
@@ -14,14 +16,19 @@ theme = responsiveFontSizes(theme);
 const First = () => {
   return (
     <>
-    <ThemeProvider theme={theme}>
-      <Container>
-        <Typography sx={{ fontWeight: 1000 }} variant="h2">
-          App bar
-        </Typography><br></br><br></br>
-        <BasicAppBar/>
-       
-      </Container>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+
+        <Box>
+          <Container>
+            <Typography sx={{ fontWeight: 1000 }} variant="h2">
+              App bar
+            </Typography>
+            <br></br>
+            <br></br>
+            <BasicAppBar />
+          </Container>
+        </Box>
       </ThemeProvider>
     </>
   );
