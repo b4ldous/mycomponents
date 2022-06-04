@@ -58,7 +58,12 @@ const OutlinedCard = () => {
         }}
       >
         <Box sx={{ minWidth: 275 }}>
-          <Card sx={{ minWidth: 275, width: 300, margin: 'auto' }} variant="outlined">{card}</Card>
+          <Card
+            sx={{ minWidth: 275, width: 300, margin: "auto" }}
+            variant="outlined"
+          >
+            {card}
+          </Card>
         </Box>
       </Box>
     </>

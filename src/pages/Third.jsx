@@ -9,6 +9,7 @@ import Container from '@mui/material/Container'
 import SimplePaper from "./thirdcontent/SimplePaper";
 import VariantsPaper from "./thirdcontent/VariantsPaper";
 import ElevationPaper from "./thirdcontent/ElevationPaper";
+import CssBaseline  from "@mui/material/CssBaseline";
 
 let theme = createTheme();
 theme = responsiveFontSizes(theme);
@@ -18,6 +19,7 @@ const Third = () => {
   return (
     <>
     <ThemeProvider theme={theme}>
+      <CssBaseline/>
       <Container>
       <Typography sx={{ fontWeight: 1000 }} variant="h2">
           Paper

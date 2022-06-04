@@ -10,6 +10,7 @@ import BasicCard from "./fourthcontent/BasicCard";
 import OutlinedCard from "./fourthcontent/OutlinedCard";
 import ComplexInteraction from "./fourthcontent/ComplexInteraction";
 import MediaCard from "./fourthcontent/MediaCard";
+import CssBaseline  from "@mui/material/CssBaseline";
 
 let theme = createTheme();
 theme = responsiveFontSizes(theme);
@@ -18,6 +19,7 @@ function Fourth() {
   return (
     <>
       <ThemeProvider theme={theme}>
+        <CssBaseline/>
         <Container>
           <Typography sx={{ fontWeight: 1000 }} variant="h2">
             Card
