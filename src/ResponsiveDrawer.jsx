@@ -18,8 +18,9 @@ const navLinks = [
   { title: "App bar", path: "/appBar" },
   { title: "Accordion", path: "/accordion" },
   { title: "Paper", path: "/paper" },
-  {title: "Card", path: "/card"},
-  {title: "Box", path: "/box"}
+  { title: "Card", path: "/card" },
+  { title: "Box", path: "/box" },
+  {title: "Grid", path: "/grid"}
 ];
 
 const drawerWidth = 240;
@@ -44,7 +45,6 @@ function ResponsiveDrawer(props) {
             component={NavLink}
             to={path}
             style={({ isActive }) => ({
-              
               background: isActive ? "#edf1f5" : "",
               borderRadius: isActive ? "5px" : "",
             })}
