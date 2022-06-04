@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import First from "./pages/First";
+import Fourth from "./pages/Fourth";
 import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
 import Second from "./pages/Second";
@@ -14,9 +15,10 @@ function App() {
     <Routes>
       <Route path="/" element={<ResponsiveDrawer/>}>
         <Route index element={<Home/>} />
-        <Route path="first" element={<First/>} />
-        <Route path="second" element={<Second/>} />
-        <Route path="third" element={<Third/>} />
+        <Route path="appBar" element={<First/>} />
+        <Route path="accordion" element={<Second/>} />
+        <Route path="paper" element={<Third/>} />
+        <Route path="card" element={<Fourth/>} />
         <Route path="*" element={<NoPage/>} />
               
       </Route>

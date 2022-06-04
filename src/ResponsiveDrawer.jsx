@@ -15,9 +15,10 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 
 const navLinks = [
-  { title: "First", path: "/first" },
-  { title: "Second", path: "/second" },
-  { title: "Third", path: "/third" },
+  { title: "App bar", path: "/appBar" },
+  { title: "Accordion", path: "/accordion" },
+  { title: "Paper", path: "/paper" },
+  {title: "Card", path: "/card"}
 ];
 
 const drawerWidth = 240;
@@ -42,8 +43,8 @@ function ResponsiveDrawer(props) {
             component={NavLink}
             to={path}
             style={({ isActive }) => ({
-              color: isActive ? "#fff" : "",
-              background: isActive ? "black" : "",
+              
+              background: isActive ? "#edf1f5" : "",
               borderRadius: isActive ? "5px" : "",
             })}
           >
@@ -128,7 +129,7 @@ function ResponsiveDrawer(props) {
         sx={{
           flexGrow: 1,
           p: 3,
-          width: { sm: `calc(100% - ${drawerWidth}px)` },
+          width: { sm: `calc(100% - ${drawerWidth}px)`, marginTop: "50px" },
         }}
       >
         <Outlet />

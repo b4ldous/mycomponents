@@ -1,22 +1,30 @@
-import React from 'react'
-import Box from '@mui/material/Box'
-import Typography from '@mui/material/Typography'
+import React from "react";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import {
+  createTheme,
+  responsiveFontSizes,
+  ThemeProvider,
+} from '@mui/material/styles';
+import BasicAppBar from "./firstcontent/BasicAppBar";
 
+let theme = createTheme();
+theme = responsiveFontSizes(theme);
 
 const First = () => {
   return (
-    <Box sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '500px'}}>
-      <Box sx={{border: 'solid 10px', padding: '20px', borderRadius: '20px'}}>
-        <Typography variant='h1' sx={{fontWeight: 1000}}>
-            First Page
+    <>
+    <ThemeProvider theme={theme}>
+      <Container>
+        <Typography sx={{ fontWeight: 1000 }} variant="h2">
+          App bar
+        </Typography><br></br><br></br>
+        <BasicAppBar/>
+       
+      </Container>
+      </ThemeProvider>
+    </>
+  );
+};
 
-        </Typography>
-        
-      </Box>
-
-
-    </Box>
-  )
-}
-
-export default First
+export default First;

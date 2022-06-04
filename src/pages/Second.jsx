@@ -1,25 +1,40 @@
-import React from 'react'
-import Box from '@mui/material/Box'
-import Typography from '@mui/material/Typography'
+import React from "react";
+
+import Typography from "@mui/material/Typography";
+import {
+  createTheme,
+  responsiveFontSizes,
+  ThemeProvider,
+} from "@mui/material/styles";
+import Container from '@mui/material/Container'
+import BasicAccordion from "./secondcontent/BasicAccordion";
+import { ControlledAccordion } from "./secondcontent/ControlledAccordion";
+import CustomizedAccordions from "./secondcontent/CustomizedAccordions";
+
+let theme = createTheme();
+theme = responsiveFontSizes(theme);
 
 const Second = () => {
   return (
-    <Box sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '500px'}}>
-    <Box sx={{border: 'solid 10px', padding: '20px', borderRadius: '20px'}}>
-      <Typography variant='h1' sx={{fontWeight: 1000}}>
-          Second Page
+    <>
+      <ThemeProvider theme={theme}>
+        <Container>
+        <Typography sx={{ fontWeight: 1000 }} variant="h2">
+          Accordion
+        </Typography> <br></br><br></br>
+        <BasicAccordion/> <br></br><br></br>
+        <ControlledAccordion/><br></br><br></br>
+        <CustomizedAccordions/>
 
-      </Typography>
-      
-    </Box>
+
+        </Container>
 
 
-  </Box>
-    
-    
-    
-    
-  )
-}
 
-export default Second
+
+      </ThemeProvider>
+    </>
+  );
+};
+
+export default Second;

@@ -1,23 +1,37 @@
 import React from "react";
-import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import {
+  createTheme,
+  responsiveFontSizes,
+  ThemeProvider,
+} from "@mui/material/styles";
+import Container from '@mui/material/Container'
+import SimplePaper from "./thirdcontent/SimplePaper";
+import VariantsPaper from "./thirdcontent/VariantsPaper";
+import ElevationPaper from "./thirdcontent/ElevationPaper";
+
+let theme = createTheme();
+theme = responsiveFontSizes(theme);
+
 
 const Third = () => {
   return (
-    <Box
-      sx={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "500px",
-      }}
-    >
-      <Box sx={{ border: "solid 10px", padding: "20px", borderRadius: "20px" }}>
-        <Typography variant="h1" sx={{ fontWeight: 1000 }}>
-          Third Page
-        </Typography>
-      </Box>
-    </Box>
+    <>
+    <ThemeProvider theme={theme}>
+      <Container>
+      <Typography sx={{ fontWeight: 1000 }} variant="h2">
+          Paper
+        </Typography> <br></br><br></br>
+        <SimplePaper/><br></br><br></br>
+        <VariantsPaper/><br></br><br></br>
+        <ElevationPaper/>
+
+      </Container>
+
+
+    </ThemeProvider>
+    
+    </>
   );
 };
 
