@@ -26,7 +26,7 @@ const MediaCard = () => {
           background: "#edf1f5",
         }}
       >
-        <Card sx={{ maxWidth: 345, margin: "auto" }}>
+        <Card sx={{ maxWidth: 275, margin: "auto" }}>
           <CardMedia
             component="img"
             height="200"
