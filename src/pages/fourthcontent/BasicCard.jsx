@@ -32,7 +32,7 @@ function BasicCard() {
           background: "#edf1f5",
         }}
       >
-           <Card sx={{ minWidth: 275, width: 300, margin: 'auto' }}>
+           <Card sx={{ maxWidth: 275, margin: 'auto' }}>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
           Word of the Day
