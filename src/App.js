@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Fifth from "./pages/Fifth";
 import First from "./pages/First";
 import Fourth from "./pages/Fourth";
 import Home from "./pages/Home";
@@ -18,6 +19,7 @@ function App() {
             <Route path="accordion" element={<Second />} />
             <Route path="paper" element={<Third />} />
             <Route path="card" element={<Fourth />} />
+            <Route path="box" element={<Fifth />} />
             <Route path="*" element={<NoPage />} />
           </Route>
           <Route path="*" element={<NoPage />} />

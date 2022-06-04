@@ -18,7 +18,8 @@ const navLinks = [
   { title: "App bar", path: "/appBar" },
   { title: "Accordion", path: "/accordion" },
   { title: "Paper", path: "/paper" },
-  {title: "Card", path: "/card"}
+  {title: "Card", path: "/card"},
+  {title: "Box", path: "/box"}
 ];
 
 const drawerWidth = 240;
