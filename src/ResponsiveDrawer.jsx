@@ -20,7 +20,9 @@ const navLinks = [
   { title: "Paper", path: "/paper" },
   { title: "Card", path: "/card" },
   { title: "Box", path: "/box" },
-  {title: "Grid", path: "/grid"}
+  {title: "Grid", path: "/grid"},
+  {title: "Stack", path: "/stack"},
+  {title: "Image list", path: "/image-list"}
 ];
 
 const drawerWidth = 240;

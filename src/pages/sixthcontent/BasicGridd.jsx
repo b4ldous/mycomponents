@@ -18,7 +18,7 @@ const BasicGridd = () => {
     <>
       <Typography sx={{ fontWeight: 1000 }} variant="h3">
         Basic Grid
-      </Typography>
+      </Typography><br></br>
       <Typography variant="body">
         Column widths are integer values between 1 and 12; they apply at any
         breakpoint and indicate how many columns are occupied by the component.

@@ -12,7 +12,7 @@ const Sixth = () => {
         <Container>
           <Typography sx={{ fontWeight: 1000 }} variant="h2">
             Grid
-          </Typography>
+          </Typography> <br></br>
           <Typography variant="body">
             The Material Design responsive layout grid adapts to screen size and
             orientation, ensuring consistency across layouts.

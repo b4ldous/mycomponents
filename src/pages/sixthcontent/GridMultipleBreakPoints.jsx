@@ -18,7 +18,7 @@ const GridMultipleBreakPoints = () => {
     <>
       <Typography sx={{ fontWeight: 1000 }} variant="h3">
         Grid with multiple breakpoints
-      </Typography>
+      </Typography><br></br>
       <Typography variant="body">
         Components may have multiple widths defined, causing the layout to
         change at the defined breakpoint. Width values given to larger
