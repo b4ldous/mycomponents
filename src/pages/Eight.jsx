@@ -2,6 +2,7 @@ import React from 'react';
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography"
 import StandardImageList from './eightcontent/StandarImageList';
+import QuiltedImageList from './eightcontent/QuiltedImageList';
 
 const Eight = () => {
   return (
@@ -12,7 +13,8 @@ const Eight = () => {
             </Typography>
             <br></br>
             <br></br>
-            <StandardImageList/>
+            <StandardImageList/><br></br><br></br>
+            <QuiltedImageList/>
             
             
           </Container>
