@@ -40,28 +40,38 @@ const SecondExampleColorPicker = () => {
       >
         <Box sx={{ maxWidth: 500, margin: "auto" }}>
           <Paper sx={{ padding: "20px" }} elevation={24}>
-            <Box component="div" sx={{borderRadius: '10px', padding: '20px'}} style={divStyle}>
+            <Box
+              component="div"
+              sx={{ borderRadius: "10px", padding: "20px" }}
+              style={divStyle}
+            >
               <Typography
                 align="center"
                 variant="h3"
                 sx={{ fontWeight: 1000, color: "white" }}
               >
-                {color}
+                Hello
               </Typography>
             </Box>
             <br></br>
 
-            <Box sx={{textAlign: 'center'}}>
-            
-            {colorNames.map((colorName) => (
-              <Button sx={{ margin: '10px'}} variant="outlined" onClick={() => setColor(colorName)} key={colorName}>
-                {colorName}
-              </Button>
-            ))}
-
-
+            <Box sx={{ textAlign: "center" }}>
+              {colorNames.map((colorName) => (
+                <Button
+                  sx={{
+                    margin: "5px",
+                    borderRadius: "25px",
+                    height: "50px",
+                    width: "150px",
+                  }}
+                  variant="outlined"
+                  onClick={() => setColor(colorName)}
+                  key={colorName}
+                >
+                  {colorName}
+                </Button>
+              ))}
             </Box>
-            
           </Paper>
         </Box>
       </Box>

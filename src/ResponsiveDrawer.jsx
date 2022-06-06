@@ -1,5 +1,5 @@
 import React from "react";
-import { Outlet, NavLink } from "react-router-dom";
+import { Outlet, NavLink, Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -84,9 +84,19 @@ function ResponsiveDrawer(props) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
-            Responsive drawer
+        
+          <Box sx={{textDecoration: 'none', color: 'black'}} component={Link} to='/'>
+          <Typography variant="h6" >
+            Home
           </Typography>
+
+
+          </Box>
+
+
+          
+          
+          
         </Toolbar>
         <Divider />
       </AppBar>
