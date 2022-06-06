@@ -3,6 +3,7 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import FirstExample from "./ninethcontent/FirstExample";
+import SecondExampleColorPicker from "./ninethcontent/SecondExampleColorPicker";
 
 const Ninenth = () => {
   return (
@@ -15,6 +16,8 @@ const Ninenth = () => {
           <br></br>
           <br></br>
           <FirstExample/>
+          <br></br><br></br>
+          <SecondExampleColorPicker/>
         </Container>
       </Box>
     </>
