@@ -22,7 +22,8 @@ const navLinks = [
   { title: "Box", path: "/box" },
   {title: "Grid", path: "/grid"},
   {title: "Stack", path: "/stack"},
-  {title: "Image list", path: "/image-list"}
+  {title: "Image list", path: "/image-list"},
+  {title: "useState hook", path: "/useState"}
 ];
 
 const drawerWidth = 240;

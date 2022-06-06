@@ -4,6 +4,7 @@ import Fifth from "./pages/Fifth";
 import First from "./pages/First";
 import Fourth from "./pages/Fourth";
 import Home from "./pages/Home";
+import Ninenth from "./pages/Ninenth";
 import NoPage from "./pages/NoPage";
 import Second from "./pages/Second";
 import Seventh from "./pages/Seventh";
@@ -26,9 +27,10 @@ function App() {
             <Route path="grid" element={<Sixth />} />
             <Route path="stack" element={<Seventh />} />
             <Route path="image-list" element={<Eight/>} />
+            <Route path="useState" element={<Ninenth/>} />
             <Route path="*" element={<NoPage />} />
           </Route>
-          <Route path="*" element={<NoPage />} />
+          
         </Routes>
       </BrowserRouter>
     </>
