@@ -20,10 +20,10 @@ const navLinks = [
   { title: "Paper", path: "/paper" },
   { title: "Card", path: "/card" },
   { title: "Box", path: "/box" },
-  {title: "Grid", path: "/grid"},
-  {title: "Stack", path: "/stack"},
-  {title: "Image list", path: "/image-list"},
-  {title: "useState hook", path: "/useState"}
+  { title: "Grid", path: "/grid" },
+  { title: "Stack", path: "/stack" },
+  { title: "Image list", path: "/image-list" },
+  { title: "useState hook", path: "/useState" },
 ];
 
 const drawerWidth = 240;
@@ -43,6 +43,7 @@ function ResponsiveDrawer(props) {
       <List sx={{ padding: "10px" }}>
         {navLinks.map(({ title, path }) => (
           <ListItem
+            onClick={handleDrawerToggle}
             sx={{ color: "black", height: "2rem" }}
             key={title}
             component={NavLink}
@@ -84,19 +85,14 @@ function ResponsiveDrawer(props) {
           >
             <MenuIcon />
           </IconButton>
-        
-          <Box sx={{textDecoration: 'none', color: 'black'}} component={Link} to='/'>
-          <Typography variant="h6" >
-            Home
-          </Typography>
 
-
+          <Box
+            sx={{ textDecoration: "none", color: "black" }}
+            component={Link}
+            to="/"
+          >
+            <Typography variant="h6">Home</Typography>
           </Box>
-
-
-          
-          
-          
         </Toolbar>
         <Divider />
       </AppBar>
