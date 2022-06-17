@@ -62,7 +62,7 @@ const SecondExampleColorPicker = () => {
                     margin: "5px",
                     borderRadius: "25px",
                     height: "50px",
-                    width: "200px",
+                    width: "175px",
                   }}
                   variant="outlined"
                   onClick={() => setColor(colorName)}
