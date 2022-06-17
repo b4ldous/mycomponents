@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Eight from "./pages/Eight";
 import Fifth from "./pages/Fifth";
 import First from "./pages/First";
@@ -15,7 +15,7 @@ import ResponsiveDrawer from "./ResponsiveDrawer";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<ResponsiveDrawer />}>
             <Route index element={<Home />} />
@@ -26,13 +26,12 @@ function App() {
             <Route path="box" element={<Fifth />} />
             <Route path="grid" element={<Sixth />} />
             <Route path="stack" element={<Seventh />} />
-            <Route path="image-list" element={<Eight/>} />
-            <Route path="useState" element={<Ninenth/>} />
+            <Route path="image-list" element={<Eight />} />
+            <Route path="useState" element={<Ninenth />} />
             <Route path="*" element={<NoPage />} />
           </Route>
-          
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
