@@ -1,0 +1,131 @@
+[33mcommit bd00021335a267e3a33762852629e258153c6925[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Thu Jun 16 19:52:49 2022 -0500
+
+    button size was changed
+
+[33mcommit c6a22125c708eea5261099e8c81f766fa64e58a1[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Thu Jun 16 19:29:23 2022 -0500
+
+    HashRouter was added
+
+[33mcommit 5f70940e80371d79a66d588a68d47b271d726ef1[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Thu Jun 16 17:27:18 2022 -0500
+
+    onClick event was added
+
+[33mcommit a2f06b233e630a9996950d38645a03ed94f6d654[m[33m ([m[1;32mexperiment[m[33m)[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Mon Jun 6 16:41:31 2022 -0500
+
+    some changes
+
+[33mcommit 2e872a159f1a43c60674d6108b169ca878cb8b62[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Mon Jun 6 11:33:33 2022 -0500
+
+    A color picker was added
+
+[33mcommit ab5b6810c921f25efd3f7e6bf9d818cff548b23a[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Sun Jun 5 23:30:51 2022 -0500
+
+    A new page was added
+
+[33mcommit da294515143a0ea94db92a0b22c5b503b6227ce4[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Sat Jun 4 22:51:07 2022 -0500
+
+    some changes
+
+[33mcommit e581dca8d29f6067d7d0562a42e6db0d17f93166[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Sat Jun 4 22:35:40 2022 -0500
+
+    a new page was added
+
+[33mcommit 067314f4eb3ca4def6a1d148951ed9dd39e45513[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Sat Jun 4 18:10:44 2022 -0500
+
+    a new page was added
+
+[33mcommit 26c62d4db0bcf7b27c2754af59197eadd3420dba[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Sat Jun 4 15:40:48 2022 -0500
+
+    A new page was added
+
+[33mcommit a35077b155c56555b17f78240e637fac2bdd94cc[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Sat Jun 4 13:12:51 2022 -0500
+
+    some changes
+
+[33mcommit 1acf4d8e2880e9587a37314b3accbb2928e2615f[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Sat Jun 4 13:07:21 2022 -0500
+
+    some responsive changes
+
+[33mcommit eda45061f8ac9395bb2399b40a567e7fa13313c9[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Sat Jun 4 12:59:12 2022 -0500
+
+    some changes
+
+[33mcommit 010dc42b29470e70caefbd30686f59f2cc03a2a0[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Sat Jun 4 11:15:12 2022 -0500
+
+    some changes
+
+[33mcommit b97dc7de70a53a67cfeba7ad616d689b8c6dd915[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Sat Jun 4 09:15:33 2022 -0500
+
+    some changes
+
+[33mcommit 496f2862b137a2b2c7ef293a2ff7072405cc9952[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Sat Jun 4 09:12:18 2022 -0500
+
+    some changes
+
+[33mcommit 977eceaae553202d2895f82f138817949abd266f[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Sat Jun 4 09:03:52 2022 -0500
+
+    a page was added
+
+[33mcommit bcfd9b9eebec2f8b573590a5626d5de10d0e77b5[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Fri Jun 3 23:03:00 2022 -0500
+
+    some pages were added
+
+[33mcommit a0df7bdf85af3a39b99fa6273b5102c7a74bc035[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Thu Jun 2 22:19:46 2022 -0500
+
+    A page was added
+
+[33mcommit 66b02636bc45306519ac51369cf510f7de3e8295[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Thu Jun 2 22:05:54 2022 -0500
+
+    some changes
+
+[33mcommit 72beeb68ebbe8c283cf3d4ef563c1a7f6bc07eb9[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Thu May 26 19:39:59 2022 -0500
+
+    some changes to the template
+
+[33mcommit ade43f9c4574a4c540581fba2888cadd71b9437e[m
+Author: b4ldous <baldous@protonmail.com>
+Date:   Thu May 26 19:21:59 2022 -0500
+
+    MUI responsive drawer with router and active links

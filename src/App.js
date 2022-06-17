@@ -26,11 +26,10 @@ function App() {
             <Route path="box" element={<Fifth />} />
             <Route path="grid" element={<Sixth />} />
             <Route path="stack" element={<Seventh />} />
-            <Route path="image-list" element={<Eight/>} />
-            <Route path="useState" element={<Ninenth/>} />
+            <Route path="image-list" element={<Eight />} />
+            <Route path="useState" element={<Ninenth />} />
             <Route path="*" element={<NoPage />} />
           </Route>
-          
         </Routes>
       </HashRouter>
     </>
