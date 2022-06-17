@@ -43,7 +43,6 @@ function ResponsiveDrawer(props) {
       <List sx={{ padding: "10px" }}>
         {navLinks.map(({ title, path }) => (
           <ListItem
-            onClick={handleDrawerToggle}
             sx={{ color: "black", height: "2rem" }}
             key={title}
             component={NavLink}
