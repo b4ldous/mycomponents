@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Eight from "./pages/Eight";
 import Fifth from "./pages/Fifth";
 import First from "./pages/First";
@@ -15,7 +15,7 @@ import ResponsiveDrawer from "./ResponsiveDrawer";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<ResponsiveDrawer />}>
             <Route index element={<Home />} />
@@ -32,7 +32,7 @@ function App() {
           </Route>
           
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
